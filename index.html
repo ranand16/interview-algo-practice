@@ -44,8 +44,9 @@ The median is (2 + 3)/2 = 2.5
     For example : [1,2,3,4,5] and [3,4,5,1,2] is true
     For example : [1,2,3,4,5] and [4,3,5,1,2] is false
 </p>
-<p><strong>NOT DONE</strong><strong></strong>
-    
+<p><strong>NOT DONE</strong>Return all the common elements in the two given sorted arrays<strong></strong>
+    For example : [1,2,3,20,12] and [3,4,5,10,12] will return [3,12]
+    For example : [1,2,3,5] and [4,3,11,20] will return []
 </p>
 
 
@@ -56,6 +57,7 @@ The median is (2 + 3)/2 = 2.5
 <script type="text/javascript" src ="oneAway.js"></script>
 <script type="text/javascript" src ="returnMedianArray.js"></script>
 <script type="text/javascript" src ="returnRotationAway.js"></script>
+<script type="text/javascript" src ="returnCommonElements.js"></script>
 <script type="text/javascript">
 // Daily Coding Problem: Problem #1 [Easy]
     // const returnk = returnK([3,3], 6)
@@ -88,6 +90,8 @@ The median is (2 + 3)/2 = 2.5
     // console.log(returnRotationAwayans)
 </script>
 <script>
-
+    // [1,2,3,5] and [4,3,11,20]
+    let commonElem = returnCommonElementsArray([], [3,4,5,10,12]);
+    console.log(commonElem);
 </script>
 </html>
