@@ -44,11 +44,16 @@ The median is (2 + 3)/2 = 2.5
     For example : [1,2,3,4,5] and [3,4,5,1,2] is true
     For example : [1,2,3,4,5] and [4,3,5,1,2] is false
 </p>
-<p><strong>NOT DONE</strong>Return all the common elements in the two given sorted arrays<strong></strong>
+<p><strong>DONE</strong>Return all the common elements in the two given sorted arrays<strong></strong>
     For example : [1,2,3,20,12] and [3,4,5,10,12] will return [3,12]
     For example : [1,2,3,5] and [4,3,11,20] will return []
 </p>
-
+<p><strong>NOT DONE</strong>Subarray with given sum<strong></strong>
+    For example : [1,2,3,20,12] and 25 will return [2,3,20]
+    For example : [12,13,16,20] and 3 will return []
+    For example : [12,13,16,20] and 23 will return []
+    For example : [] and 23 will return []
+</p>
 
 </body>
 <script type="text/javascript" src ="returnK.js"></script>
@@ -58,6 +63,7 @@ The median is (2 + 3)/2 = 2.5
 <script type="text/javascript" src ="returnMedianArray.js"></script>
 <script type="text/javascript" src ="returnRotationAway.js"></script>
 <script type="text/javascript" src ="returnCommonElements.js"></script>
+<script type="text/javascript" src ="returnSumSubArray.js"></script>
 <script type="text/javascript">
 // Daily Coding Problem: Problem #1 [Easy]
     // const returnk = returnK([3,3], 6)
@@ -91,7 +97,13 @@ The median is (2 + 3)/2 = 2.5
 </script>
 <script>
     // [1,2,3,5] and [4,3,11,20]
-    let commonElem = returnCommonElementsArray([], [3,4,5,10,12]);
-    console.log(commonElem);
+    // let commonElem = returnCommonElementsArray([1,2,3,5,10,11,12,14,15,20,23,24,26,28],[3,4,11,20]);
+    // console.log(commonElem);
+</script>
+<script>
+    // console.log(returnSumSubArray([1,2,3,20,12], 25)) //[2,3,20]
+    // console.log(returnSumSubArray([12,13,16,20], 36) )// []
+    // console.log(returnSumSubArray([12,13,16,20], 23) )// []
+    // console.log(returnSumSubArray([], 23)) //[]
 </script>
 </html>
