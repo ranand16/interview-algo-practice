@@ -48,11 +48,16 @@ The median is (2 + 3)/2 = 2.5
     For example : [1,2,3,20,12] and [3,4,5,10,12] will return [3,12]
     For example : [1,2,3,5] and [4,3,11,20] will return []
 </p>
-<p><strong>NOT DONE</strong>Subarray with given sum<strong></strong>
+<p><strong>DONE</strong>Subarray with given sum<strong></strong>
     For example : [1,2,3,20,12] and 25 will return [2,3,20]
     For example : [12,13,16,20] and 3 will return []
     For example : [12,13,16,20] and 23 will return []
     For example : [] and 23 will return []
+</p>
+<p><strong>DONE</strong>leetcode 128: Longest Consecutive Subsequence<strong></strong>
+    For example : [1,2,20,12,3,50,4] return 4
+    For example : [12,13,16,20] return 1
+    For example : [] return 0
 </p>
 
 </body>
@@ -64,6 +69,7 @@ The median is (2 + 3)/2 = 2.5
 <script type="text/javascript" src ="returnRotationAway.js"></script>
 <script type="text/javascript" src ="returnCommonElements.js"></script>
 <script type="text/javascript" src ="returnSumSubArray.js"></script>
+<script type="text/javascript" src ="longestConsecutiveSeq.js"></script>
 <script type="text/javascript">
 // Daily Coding Problem: Problem #1 [Easy]
     // const returnk = returnK([3,3], 6)
@@ -100,10 +106,17 @@ The median is (2 + 3)/2 = 2.5
     // console.log(commonElem);
 </script>
 <script>
-    console.log(returnSumSubArray([1,2,3,20,12], 25)) //[2,3,20]
-    console.log(returnSumSubArray([12,13,16,20], 36))// [16,20]
-    console.log(returnSumSubArray([12,13,16,20], 3))// []
-    console.log(returnSumSubArray([12,13,16,20], 23))// []
-    console.log(returnSumSubArray([], 23)) //[]
+    // console.log(returnSumSubArray([1,2,3,20,12], 25)) //[2,3,20]
+    // console.log(returnSumSubArray([12,13,16,20], 36))// [16,20]
+    // console.log(returnSumSubArray([12,13,16,20], 3))// []
+    // console.log(returnSumSubArray([12,13,16,20], 23))// []
+    // console.log(returnSumSubArray([], 23)) //[]
+</script>
+<script>
+    console.log(longestConsecutiveSeq([1,2,20,12,3,50,4]))
+    console.log(longestConsecutiveSeq([12,13,16,20]))
+    console.log(longestConsecutiveSeq([0, -1]))
+    console.log(longestConsecutiveSeq([1,2,20,12,3,50,4,100,5,134,6,7,8]))
+    console.log(longestConsecutiveSeq([]))
 </script>
 </html>
