@@ -38,7 +38,7 @@ function smallestLargest(arr){
     return [arr[0], arr[arr.length-1]]
 } 
 
-// Question 4
+// Question 4 How do you find all pairs of an integer array whose sum is equal to a given number? 
 function subarrayOfSum(arr, k){
     if(!arr.length) return 0;
     let cumSum = new Array();
@@ -52,4 +52,22 @@ function subarrayOfSum(arr, k){
         }
     }
     return subArrayCount
+}
+
+// Question 5 
+
+
+
+// Question 6 Given an unsorted array of integers, find the length of the longest consecutive elements sequence?
+function longestConsecutiveSubsequence(arr){
+    if(!arr.length) return 0;
+    let longestSeq = 0;
+    for(let i=0; i<arr.length; i++) {
+        if(arr.indexOf(arr[i]-1) === -1){
+            let curSeq = 1; let num = arr[i];
+            while(arr.indexOf(++num) !== -1) curSeq++;
+            longestSeq = Math.max(longestSeq, curSeq);
+        }
+    }
+    return longestSeq;
 }
