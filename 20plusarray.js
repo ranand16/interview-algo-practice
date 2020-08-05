@@ -37,3 +37,19 @@ function smallestLargest(arr){
     arr.sort((a,b)=>a-b)
     return [arr[0], arr[arr.length-1]]
 } 
+
+// Question 4
+function subarrayOfSum(arr, k){
+    if(!arr.length) return 0;
+    let cumSum = new Array();
+    let subArrayCount = 0;
+    for(let i=0; i<arr.length; i++) {
+        // console.log(cumSum)
+        cumSum[i] = isNaN(cumSum[i-1] + arr[i])?arr[i]:cumSum[i-1] + arr[i];
+        if(cumSum.indexOf(cumSum[i] - k)!==-1 || cumSum[i] - k===0) {
+            // console.log("curSum === ", cumSum[i], "req sum---", cumSum[i] - k, "start i -- ", cumSum.indexOf(cumSum[i] - k) + 1, "i===", i);
+            subArrayCount++;
+        }
+    }
+    return subArrayCount
+}
