@@ -59,15 +59,30 @@ function subarrayOfSum(arr, k){
 
 
 // Question 6 Given an unsorted array of integers, find the length of the longest consecutive elements sequence?
-function longestConsecutiveSubsequence(arr){
-    if(!arr.length) return 0;
+function longestConsecutiveSubsequence(nums){
+    if(!nums.length) return 0;
     let longestSeq = 0;
-    for(let i=0; i<arr.length; i++) {
-        if(arr.indexOf(arr[i]-1) === -1){
-            let curSeq = 1; let num = arr[i];
-            while(arr.indexOf(++num) !== -1) curSeq++;
+    for(let i=0; i<nums.length; i++) {
+        if(nums.indexOf(nums[i]-1) === -1){
+            let curSeq = 1; let num = nums[i];
+            while(nums.indexOf(++num) !== -1) curSeq++;
             longestSeq = Math.max(longestSeq, curSeq);
         }
     }
     return longestSeq;
+}
+
+// Question 6 Given an unsorted array of integers, find the length of the longest consecutive elements sequence? ---- THIS IS MORE FASTER THAN THE ABOVE METHOD
+function longestConsecutiveSeq(array){
+    if(!array.length) return 0 // checking if the array has some elements
+    let nums = {}, res = 0
+    for(num in array) nums[array[num]] = true
+    for(num in array) {
+        let i=array[num]
+        if(!nums[i-1]) {
+            while(nums[i+1]) i++;
+            res = Math.max(res, Math.abs(i-array[num])<1?1: i-array[num] + 1) // differnce + 1
+        }
+    }
+    return res  
 }
