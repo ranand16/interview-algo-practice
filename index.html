@@ -63,6 +63,22 @@
             For example : [12,13,16,20] return 1
             For example : [] return 0
         </p></li> 
+        <li><p><strong>NOT DONE</strong>First and last position of x in an array.<strong></strong>
+            For example : [1,2,7,7,7,12,13,8,9,9], 7 return {2,4}
+            For example : [1,2,7,7,7,12,13,8,9,9], 9 return {8,9}
+            Hint: use binary search in this case
+        </p></li> 
+        <li>
+            <p><strong>NOT DONE </strong><strong>leetcode 11. Container With Most Water</strong>
+                Given n non-negative integers a1, a2, ..., an , where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water.
+                Note: You may not slant the container and n is at least 2.
+            </p>
+            <p>
+                Example:
+                Input: [1,8,6,2,5,4,8,3,7]
+                Output: 49
+            </p>
+        </li>
         </ol>
         <p>Following are the questions from https://medium.com/javarevisited/20-array-coding-problems-and-questions-from-programming-interviews-869b475b9121</p>
         <p>NOTE: There is a single js file solution for the below questions: </p>
@@ -71,22 +87,10 @@
             <li>How do you find the duplicate number on a given integer array? - <strong>DONE</strong></li> 
             <li>How do you find the largest and smallest number in an unsorted integer array? </li> - <strong>DONE</strong></li> 
             <li>How do you find all pairs of an integer array whose sum is equal to a given number? </li> - <strong>DONE</strong></li> 
-            <li>How do you search a target value in a rotated array? </li>
-            <li>Given an unsorted array of integers, find the length of the longest consecutive elements sequence? </li>
-            <li>How is an integer array sorted in place using the quicksort algorithm? </li>
-            <li>How do you remove duplicates from an array in place? </li>
-            <li>How do you reverse an array in place in Java? </li>
-            <li>How are duplicates removed from an array without using any library? </li>
-            <li>How to convert a byte array to String? </li>
-            <li>What is the difference between an array and a linked list? (answer)
-            <li>How do you perform a binary search in a given array? </li>
-            <li>How to find a median of two sorts arrays? </li>
-            <li>How to rotate an array left and right by a given number K? </li>
-            <li>How do you find duplicates from an unsorted array? </li>
-            <li>Given an array of integers sorted in ascending order, find the starting and ending position of a given value? </li>
-            <li>Given an integer array, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum? </li>
         </ol>
 </body>
+<script type="text/javascript" src ="stackClass.js"></script>
+
 <script type="text/javascript" src ="returnK.js"></script>
 <script type="text/javascript" src ="returnProduct.js"></script>
 <script type="text/javascript" src ="firstMissingPositive.js"></script>
@@ -96,7 +100,11 @@
 <script type="text/javascript" src ="returnCommonElements.js"></script>
 <script type="text/javascript" src ="returnSumSubArray.js"></script>
 <script type="text/javascript" src ="longestConsecutiveSeq.js"></script>
-<script type="text/javascript" src="20plusarray.js"></script>
+<script type="text/javascript" src ="20plusarray.js"></script>
+<script type="text/javascript" src ="firstlastIndexK.js"></script>
+<script type="text/javascript" src ="leetcode11.js"></script>
+<script type="text/javascript" src ="leetcode26.js"></script>
+<script type="text/javascript" src ="leetcode27.js"></script>
 <script type="text/javascript">
 // Daily Coding Problem: Problem #1 [Easy]
     // const returnk = returnK([3,3], 6)
@@ -185,5 +193,21 @@
     // console.log(longestConsecutiveSeq([5,4,2,7,9,1]))
     // console.log(longestConsecutiveSeq([]))
 
+
+    // This is not tested yet
+    // console.log(mainreturnFirstIndexOfK([1,2,2,2,3,4,7,8,5], 2));
+
+    // Stack class test
+    // let stack = new Stack();
+    // stack.push(2);stack.push(3);stack.push(4);stack.push(5); 
+    // stack.printItems();
+
+    // leetcode11([1,8,6,2,5,4,8,3,7])
+
+    // leetcode 26
+    // console.log(leetcode26([0,0,1,1,1,2,3,3,4]))
+        
+    // leetcode 27
+    console.log(leetcode27([0,1,2,3,4],3))
 </script>
 </html>
