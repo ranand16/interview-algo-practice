@@ -1,11 +1,12 @@
 var leetcode27 = function(nums, n) {
-    let len = nums.length; 
-    for(let i=0; i<nums.length; i++){
-        if(nums[i]===n) {
-            nums[i] = nums[i+1];
-            len--
+    let j = 0; let i=0;
+    while(i<nums.length){
+        if(nums[i]!==n) {
+            nums[j] = nums[i];
+            j++;
         }
+        i++
     }
     console.log(nums)
-    return len
+    return j
 };
