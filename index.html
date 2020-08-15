@@ -78,7 +78,22 @@
                 Input: [1,8,6,2,5,4,8,3,7]
                 Output: 49
             </p>
+        </li> 
+        <li>
+            <p><strong>NOT DONE </strong><strong>31. Next Permutation</strong>
+                Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
+                If such arrangement is not possible, it must rearrange it as the lowest possible order (ie, sorted in ascending order).
+                The replacement must be in-place and use only constant extra memory.
+                Here are some examples. Inputs are in the left-hand column and its corresponding outputs are in the right-hand column.
+            </p>
+            <p>
+                Example:
+                1,2,3 → 1,3,2
+                3,2,1 → 1,2,3
+                1,1,5 → 1,5,1
+            </p>
         </li>
+        
         </ol>
         <p>Following are the questions from https://medium.com/javarevisited/20-array-coding-problems-and-questions-from-programming-interviews-869b475b9121</p>
         <p>NOTE: There is a single js file solution for the below questions: </p>
@@ -88,6 +103,8 @@
             <li>How do you find the largest and smallest number in an unsorted integer array? </li> - <strong>DONE</strong></li> 
             <li>How do you find all pairs of an integer array whose sum is equal to a given number? </li> - <strong>DONE</strong></li> 
         </ol>
+
+        
 </body>
 <script type="text/javascript" src ="stackClass.js"></script>
 <script type="text/javascript" src ="utilfucntions.js"></script>
@@ -106,6 +123,7 @@
 <script type="text/javascript" src ="leetcode11.js"></script>
 <script type="text/javascript" src ="leetcode26.js"></script>
 <script type="text/javascript" src ="leetcode27.js"></script>
+<script type="text/javascript" src ="leetcode31.js"></script>
 <script type="text/javascript" src ="sortZeroOnesTwos.js"></script>
 
 <script type="text/javascript">
@@ -215,5 +233,12 @@
 
     // Sort an array of 0’s 1’s 2’s without using extra space or sorting algo 
     // console.log(sortZeroOnesTwos([1,0,1,0,0,0,1,1,2,2,1,0,1,2,1,2,0]));
+
+    // leetcode 31
+    console.log(leetcode31([1,2,3]))
+    console.log(leetcode31([3,2,1]))
+    console.log(leetcode31([1,1,5]))
+    console.log(leetcode31([6,8,1,5,3,4,1,0]))
+    console.log(leetcode31([6,8,3,5,4,1,0]))
 </script>
 </html>
