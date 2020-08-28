@@ -1,16 +1,16 @@
-####TEST CASES
-// Daily Coding Problem: Problem #1 [Easy]
+##TEST CASES
+    // Daily Coding Problem: Problem #1 [Easy]
     // const returnk = returnK([3,3], 6)
     // const trueReturnkK = trueReturnK([3,3], 6)
     // console.log(trueReturnkK)
 
 
-// Daily Coding Problem: Problem #2 [Hard]
+    // Daily Coding Problem: Problem #2 [Hard]
     // const returnproduct = returnProduct([1,2,3,4,5])
     // console.log(returnproduct)
 
 
-// Daily Coding Problem: Problem #4 [Hard]
+    // Daily Coding Problem: Problem #4 [Hard]
     // const firstmissingpositive = firstMissingPositive([3, 4, -1, 1])
     // const firstmissingpositive2 = firstMissingPositive([1, 2, 0])
 
