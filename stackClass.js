@@ -8,7 +8,7 @@ class Stack {
     }
 
     pop = () => {
-        if(this.isEmpty()) return "underflow"
+        if(this.isEmpty()) return null
         return this.items.pop()
     }
 
