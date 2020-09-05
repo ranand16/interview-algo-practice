@@ -155,3 +155,135 @@
     // console.log(minPlafromsReq([900, 940, 950, 1100, 1500, 1800], [910, 1200, 1120, 1130, 1900, 2000]));
     // console.log(minPlafromsReq([900, 940], [910, 1200]));
     // console.log(minPlafromsReq([900, 940, 950, 1100, 1500, 1800], [910, 1600, 1120, 1130, 1900, 2000]));
+
+
+// Trapping Rain Water
+    // console.log(tappingRainWater([2, 0, 2]))
+    // console.log(tappingRainWater([3, 0, 2, 0, 4]))
+    // console.log(tappingRainWater([0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]))
+
+    // stock buy or sell
+    // console.log(stockBuySell([100, 180, 260, 310, 40, 535, 695, 300, 290, 190 ])); // 865
+    // console.log(stockBuySell([100, 180, 160, 310, 340, 330, 360 ])); // 290
+    // console.log(stockBuySell([100, 180, 160, 310, 340, 360, 350 ])); // 280
+    
+    // chocolate distribution 
+    // console.log(chocolateDistribution([7, 3, 2, 4, 9, 12, 56], 3))
+    // console.log(chocolateDistribution([3, 4, 1, 9, 56, 7, 9, 12], 5))
+    // console.log(chocolateDistribution([12, 4, 7, 9, 2, 23, 25, 41,30, 40, 28, 42, 30, 44, 48,43, 50], 7))
+    
+    // Find a pair with the given difference
+    // console.log(pairWithGivenDiff([5, 20, 3, 2, 50, 80], 78))
+    // console.log(pairWithGivenDiff([90, 70, 20, 80, 50], 45))
+    // console.log(pairWithGivenDiff([90, 70, 20, 45, 50], 45))
+
+    // Convert array into Zig-Zag fashion
+    // console.log(convertArrayIntoZigZagFashion([4, 3, 7, 8, 6, 2, 1]))
+    // console.log(convertArrayIntoZigZagFashion([1, 4, 3, 2]))
+    
+    // Find k pairs with smallest sums in two arrays
+    // console.log(findKPairsWithSmallestSums([1, 7, 11], [2, 4, 6], 6))
+
+    // Search an element in a sorted and rotated array
+    // console.log(searchElementSortedAndRotatedArray([3, 4, 5, 6, 7, 8, 9, 10, 1, 2], 2))
+    // console.log(searchElementSortedAndRotatedArray([10, 20, 30, 40, 50], 10))
+    // console.log(searchElementSortedAndRotatedArray([50, 10, 20, 30, 40], 10))
+    // console.log(searchElementSortedAndRotatedArray([10, 20, 30, 40, 50], 50))
+
+    // Given a sorted and rotated array, find if there is a pair with a given sum
+    // console.log(sortedRotatedArrayFindPairSum([10, 11, 15, 6, 8, 9], 16))
+    // console.log(sortedRotatedArrayFindPairSum([11, 15, 26, 38, 9, 10], 35))
+    // console.log(sortedRotatedArrayFindPairSum([11, 15, 26, 38, 9, 10], 45))
+
+    // Rearrange positive and negative numbers in O(n) time and O(1) extra space
+    // console.log(rearrangePositiveNegative([-1, 2, -3, 4, 5, 6, -7, 8, 9]));
+
+    // Three way partitioning of an array around a given range
+    // console.log(threeWayPartitioningArrayInRange([1, 14, 5, 20, 4, 2, 54, 20, 87, 98, 3, 1, 32], 14, 20))
+    // console.log(threeWayPartitioningArrayInRange([1, 14, 5, 20, 4, 2, 54, 20, 87, 98, 3, 1, 32], 20, 20))
+
+    // Maximum Length Bitonic Subarray
+    // console.log(maximumLengthBitonicSubarray([12, 4, 78, 90, 45, 23]))
+    // console.log(maximumLengthBitonicSubarray([20, 4, 1, 2, 3, 4, 2, 10]))
+    // console.log(maximumLengthBitonicSubarray([10]))
+    // console.log(maximumLengthBitonicSubarray([10, 20, 30, 40]))
+    // console.log(maximumLengthBitonicSubarray([40, 30, 20, 10]))
+
+    // Largest subarray with equal number of 0s and 1s
+    // console.log(largestSubarrayEqual0s1s([1, 0, 1, 1, 1, 0, 0]))
+    // console.log(largestSubarrayEqual0s1s([1, 1, 1, 1]))
+    // console.log(largestSubarrayEqual0s1s([0, 0, 1, 1, 0]))
+    
+    // Maximum Product Subarray
+    // console.log(maximumProductSubarray([6, -3, -10, 0, 2]))
+    // console.log(maximumProductSubarray([-1, -3, -10, 0, 60]))
+    // console.log(maximumProductSubarray([-2, -3, 0, -2, -40]))
+
+    // Segregate 0s and 1s in an array
+    // console.log(segregate0s1sArray([0, 1, 0, 1, 0, 0, 1, 1, 1, 0]))
+
+    // Sort an array of 0s, 1s and 2s
+    // console.log(sortArray0s1s2s([0, 1, 2, 0, 1, 2]))
+
+    // Merge Overlapping Intervals
+    // mergeOverlappingIntervals([[1,3],[2,4],[5,7],[6,8]])
+    // console.log(mergeOverlappingIntervals([[1,3],[2,4],[5,7],[6,8]]))
+
+    // Count Inversions in an array | Set 1 (Using Merge Sort)
+    // console.log(countInversionsArray([8, 4, 2, 1]))
+
+    // Maximum profit by buying and selling a share at most twice
+    // console.log(maxProfitBuySellAtMostTwice([10, 22, 5, 75, 65, 80]))
+    // console.log(maxProfitBuySellAtMostTwice([2, 30, 15, 10, 8, 25, 80]))
+    // console.log(maxProfitBuySellAtMostTwice([100, 30, 15, 10, 8, 25, 80]))
+    // console.log(maxProfitBuySellAtMostTwice([90, 80, 70, 60, 50]))
+
+    // Maximum difference between two elements such that larger element appears after the smaller number
+    // console.log(maximumDifferenceLargerAfterSmaller([2, 3, 10, 6, 4, 8, 1]))
+    // console.log(maximumDifferenceLargerAfterSmaller([7, 9, 5, 6, 3, 2]))
+
+    // Minimum swaps required to bring all elements less than or equal to k together
+    // console.log(minimumSwapsBringLToEk([2, 1, 5, 6, 3], 3))
+    // console.log(minimumSwapsBringLToEk([2, 7, 9, 5, 8, 7, 4], 5))
+
+    // Largest sum subarray with at-least k numbers
+    // console.log(largestSumSubarrayLeastKNum([-4, -2, 1, -3], 2))
+    // console.log(largestSumSubarrayLeastKNum([1, 1, 1, 1, 1, 1], 2))
+    // console.log(largestSumSubarrayLeastKNum([2, 1, 1, 1, 1], 3))
+    // console.log(largestSumSubarrayLeastKNum([1, 1, -1, -1, -1], 3))
+    // console.log(largestSumSubarrayLeastKNum([-2, -3, 4, -1, -2, 1, 5, -3], 2))
+    // console.log(longestConsecutiveSeq([-2, -3, 4, -1, -2, 1, 5, -3]))
+    
+    // 238. Product of Array Except Self
+    // console.log(productArrayExceptSelf([1,2,3,4]))
+
+    // 31. Next Permutation
+    // console.log(nextPermutaiton([20, 50, 113]))
+    // console.log(nextPermutaiton([1, 1, 5]))
+    // console.log(nextPermutaiton([3, 2, 1]))
+    // console.log(nextPermutaiton([1, 2, 3]))
+    // console.log(nextPermutaiton([4, 5, 6, 3, 2, 1]))
+
+    // Given an array arr[], find the maximum j – i such that arr[j] > arr[i]
+    // console.log(maximumIndexDiff([34,8,10,3,2,80,30,33,1]))
+    // console.log(maximumIndexDiff([9, 2, 3, 4, 5, 6, 7, 8, 18, ]))
+    // console.log(maximumIndexDiff([1, 2, 3, 4, 5, 6]))
+    // console.log(maximumIndexDiff([6, 5, 4, 3, 2, ]))
+
+    // Longest subarray with sum divisible by k leetcode 974
+
+    // Longest subarray with sum divisible by k
+    // console.log(longestSubarraySumDivisibleByK([2, 7, 6, 1, 4, 5], 3));
+    // console.log(longestSubarraySumDivisibleByK([-2, 2, -5, 12, -11, -1, 7], 3))
+
+    // Subarray Sums Divisible by K
+    // console.log(subarraySumsDivisibleK([4,5,0,-2,-3,1],5))
+
+    // Find minimum number of merge operations to make an array palindrome
+    // console.log(minMergeOperationsForPalindrome([15, 4, 15]))
+    // console.log(minMergeOperationsForPalindrome([1, 4, 5, 1]))
+    // console.log(minMergeOperationsForPalindrome([11, 14, 15, 99]))
+
+    // Reorder an array according to given indexes
+    // console.log(reorderArrayAccordingIndexes([10, 11, 12], [1, 0, 2]));
+    // console.log(reorderArrayAccordingIndexes([50, 40, 70, 60, 90], [3,  0,  4,  1,  2]));
