@@ -287,3 +287,71 @@
     // Reorder an array according to given indexes
     // console.log(reorderArrayAccordingIndexes([10, 11, 12], [1, 0, 2]));
     // console.log(reorderArrayAccordingIndexes([50, 40, 70, 60, 90], [3,  0,  4,  1,  2]));
+
+        // console.log(MAXSC([[3, 2, 1],[4, 6, 5],[9, 7, 8]]))
+
+    // console.log(rearrangeArrayMaxMin([1, 2, 3, 4, 5, 6, 7]))
+    // console.log(rearrangeArrayMaxMin([1, 2, 3, 4, 5, 6]))
+
+    // Arrange given numbers to form the biggest number | Set 1
+    // console.log(numberToFormBiggestNumber([54, 546, 548, 60]))
+    // console.log(numberToFormBiggestNumber([1, 34, 3, 98, 9, 76, 45, 4]))
+
+    // Majority Element
+    // console.log(majorityElement([3, 3, 4, 2, 4, 4, 2, 4, 4]))
+    // console.log(majorityElement([3, 3, 4, 2, 4, 4, 2, 4]))
+
+    // Searching in an array where adjacent differ by at most k
+    // console.log(searchingAdjacentDifferK([4, 5, 6, 7, 6], 1, 6))
+    // console.log(searchingAdjacentDifferK([20, 40, 50, 70, 70, 60], 20, 60))
+
+    // Find the repeating and the missing | Added 3 new methods
+    // console.log(findRepeatingMissing([3, 1, 3]))
+    // console.log(findRepeatingMissing([4, 3, 6, 2, 1, 1]))
+
+    // Ceiling in a sorted array
+    // console.log(ceilingSortedArray([1, 2, 8, 10, 10, 12, 19], 5))
+    // console.log(ceilingSortedArray([1, 2, 8, 10, 10, 12, 19], 1))
+    // console.log(ceilingSortedArray([1, 2, 8, 10, 10, 12, 19], 0))
+    // console.log(ceilingSortedArray([1, 2, 8, 10, 10, 12, 19], 20))
+
+    // Find a pair with the given difference
+    // console.log(findPairwithDifference([5, 20, 3, 80, 50, 2], 78))
+    // console.log(findPairwithDifference([90, 70, 20, 80, 50], 45))
+
+    // Find a pair with the given difference method 2 || constant space complexity || WORKS FOR ONLY SORTED ARRAYS test cases 
+    // console.log(findPairwithDifference2([5, 20, 3, 2, 50, 80], 78)) // not working, since not sorted
+    // console.log(findPairwithDifference2([90, 70, 20, 80, 50], 45)) // not working, since not sorted
+    // console.log(findPairwithDifference2([1, 8, 30, 40, 100], 60)) // working, since sorted array
+
+    // Maximum sum such that no two elements are adjacent
+    // console.log(maximumSumNoTwoElementsAdjacent([5, 5, 10, 100, 10, 5]))
+    // console.log(maximumSumNoTwoElementsAdjacent([4,1,1,4,2,1]))
+    // console.log(maximumSumNoTwoElementsAdjacent([2,5,3,1,7]))
+
+    // Find common elements in three sorted arrays
+    // console.log(findCommon3SortedArrays([1, 5, 10, 20, 40, 80], [6, 7, 20, 80, 100], [3, 4, 15, 20, 30, 70, 80, 120]))
+    // console.log(findCommon3SortedArrays([1, 5, 5], [3, 4, 5, 5, 10], [5, 5, 10, 20]))
+    // console.log(findCommon3SortedArrays())
+
+    // Count triplets with sum smaller than a given value
+    // console.log(countTripletsSumSmallValue([-2, 0, 1, 3], 2))
+    // console.log(countTripletsSumSmallValue([5, 1, 3, 4, 7], 12))
+
+    // Merge two sorted arrays with O(1) extra space
+    // console.log(mergeTwoSortedArrays([10],[2, 3]))
+    // console.log(mergeTwoSortedArrays([1, 5, 9, 10, 15, 20],[2, 3, 8, 13]))
+
+    // Counting sort
+    // console.log(countSort([1, 4, 1, 2, 7, 5, 2]))
+    
+    // Radix sort
+    // console.log(radixSort([802, 2, 24, 45, 66, 170, 75, 90]))
+
+    // Check if reversing a sub array make the array sorted
+    // console.log(checkReversingSubArrayMakeArraySorted([1,2,4,5,3]))
+    // console.log(checkReversingSubArrayMakeArraySorted([1,2,5,4,3]))
+    // console.log(checkReversingSubArrayMakeArraySorted([1,6,5,4,3,2]))
+
+    // Print all subarrays with 0 sum
+    // console.log(printSubarrays0Sum([6, 3, -1, -3, 4, -2, 2, 4, 6, -12, -7]))
